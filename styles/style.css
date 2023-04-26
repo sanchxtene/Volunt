@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+ 
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #84A5CA;
+    --main-bg-color: rgb(81, 132, 189);
+
+    --fonte-principal: 'Krona One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: content-box;
+    background-color: var(--main-bg-color);
+    /* color: white; */
+    color: var(--cor-secundaria);
+}
+
+.header {
+    background-color: var(--cor-terciaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40%;
+    font-family: var(--fonte-principal);
+}
+
+.header_logo-e-nome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--fonte-principal);
+    gap: 0rem 2.5rem;
+    font-size: 0.75rem;
+}
+
+.header_links_links {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.destaque-preto {
+    color: var(--cor-primaria);
+}
+
+.centro-pagina{
+    margin: 10%;
+    width: 50%; 
+    display: flex;
+    align-items: center;
+}
+
+.centro-pagina__paragrafo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-principal);
+}
+
+.footer {
+    background-color: var(--cor-terciaria);
+    padding: 2.25rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer__redes-sociais {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+/* .footer__redes-sociais:hover { }*/
+
+/* para celular */ 
+/* @media (max-width: xxx px){ .classe {  mudanças  }  }*/
