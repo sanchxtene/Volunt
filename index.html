@@ -5,13 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Volunt</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header class="header">
-            <div class="header_logo-e-nome">
-                <img src="galeria/logo_volunt.png" alt="Logo Volunt" height="100" width="100">
-                <h1>Volunt</h1>
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Home</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Notícias</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Instituições</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Sobre Nós</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Contatos</a>
+                    </li>
+                </ul>
+                <h1 class="container__titulo">Volunt</h1>
+                <img src="galeria/logo_volunt.png" alt="Logo Volunt" height="90" width="90">
             </div>
             <nav class="header_links">
                 <a class="header_links_links" href="index.html">Home</a>
@@ -21,7 +46,66 @@
             </nav>
         </header>
         <main class="centro-pagina">
-            <p class="centro-pagina__paragrafo">Aplicativo para <strong class="destaque-preto">conectar voluntários e instituições</strong> na cidade de Porto Alegre no estado do Rio Grande do Sul.</p>
+            <div>
+                <input type="search" class="centro-pagina__pesquisa" placeholder="Pesquise">    
+            </div>
+            <div class="wrapper">
+                <header>
+                    <p class="current-date">Maio 2023</p>
+                    <div class="icons">
+                        <span class="material-symbols-rounded">chevron_left</span>
+                        <span class="material-symbols-rounded">chevron_right</span>
+                    </div>
+                </header>
+                <div class="calendar">
+                    <ul class="weeks">
+                        <li>DOM</li>
+                        <li>SEG</li>
+                        <li>TER</li>
+                        <li>QUA</li>
+                        <li>QUI</li>
+                        <li>SEX</li>
+                        <li>SAB</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="inactive">30</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                        <li>31</li>
+                        <li class="inactive">1</li>
+                        <li class="inactive">2</li>
+                        <li class="inactive">3</li>
+                    </ul>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div class="footer__redes-sociais">

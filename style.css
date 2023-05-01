@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url("styles/header.css");
+@import url("styles/main_phone.css");
+@import url("styles/footer.css");
+@import url("styles/calendario.css");
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #EF6329;
+    --laranja-hover: #dd8a5a;
+    --main-bg-color: rgb(81, 132, 189);
+
+    --fonte-principal: 'Krona One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: content-box;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--main-bg-color);
+    color: var(--cor-secundaria);
+}
+
+

@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--cor-terciaria);
+    padding: 0.5em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer__redes-sociais {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+/* .footer__redes-sociais:hover { }*/
+
+/* para celular */ 
+/* @media (max-width: xxx px){ .classe {  mudanças  }  }*/
